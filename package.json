@@ -8,6 +8,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "gitbook-plugin-katex-plus": "^1.1.0",
     "honkit": "^3.6.16"
   }
 }
