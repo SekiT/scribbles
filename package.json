@@ -9,6 +9,6 @@
   "license": "ISC",
   "devDependencies": {
     "gitbook-plugin-katex-plus": "^1.1.0",
-    "honkit": "^6.0.0"
+    "honkit": "^6.0.1"
   }
 }
