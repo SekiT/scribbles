@@ -12,14 +12,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v5
 
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v4.2.0
+      with:
+        version: latest
+
     - name: Bundle
       run: |
-        npm ci
-        npm run build
+        pnpm install
+        pnpm run build
 
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: _book
+        branch: gh-pages
+        folder: _book

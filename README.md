@@ -7,5 +7,5 @@ to write markdown with $\TeX$.
 
 ## Setup
 
-1. `npm i && npm run serve`
+1. `asdf install && pnpm i && pnpm run serve`
 1. (in another shell) `open http://localhost:4000`
