@@ -12,8 +12,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       honkit:
-        specifier: ^6.1.4
-        version: 6.1.4
+        specifier: ^6.1.6
+        version: 6.1.6
 
 packages:
 
@@ -28,26 +28,26 @@ packages:
     resolution: {integrity: sha512-oozXk7ZO1RAd/KLFLkKOhqTcG4GO3CV44WwOFg2gMcCsqCUTarvMT7xERIoWW2WurKbB0/ce+98r01p8xPOlBw==}
     engines: {node: '>=8.11', npm: '>=5.0.0', yarn: '>=1.1.0'}
 
-  '@honkit/asciidoc@6.1.4':
-    resolution: {integrity: sha512-b7X0mWO/+9xAiD4olJox8fZ+bQohQVIvBU2wYXE5/tknNED8MiI57ayXjf/UsWiRfYodAvuywRdR0KlYP8sy1w==}
+  '@honkit/asciidoc@6.1.6':
+    resolution: {integrity: sha512-/Oy+noEYyL+yLBLia/vAu7+6XYa00M5ZoE9oqRYVsZOWDd6RLcuBhLC4EfKFZk5HqJ/f4Om09lvJgXbIXY23mg==}
 
-  '@honkit/honkit-plugin-fontsettings@6.1.4':
-    resolution: {integrity: sha512-8i59GorqCqQG0bVWZqiFLvuMCrDl+CyIqayMBfoq1Z0E25ibvf2PmHOSAOPAXAZq4npwKaoA3f2XqGEBViuilg==}
+  '@honkit/honkit-plugin-fontsettings@6.1.6':
+    resolution: {integrity: sha512-NExKrTqleTffMDqrdcb268hgQkScVjK9N+bDIxQ63dYmNhtuJ7EcLjijfkOtcS7DEnrR8S5lSjJoVC5oxPzxaQ==}
     engines: {gitbook: '>=2.4.0'}
 
-  '@honkit/honkit-plugin-highlight@6.1.4':
-    resolution: {integrity: sha512-/T7NhxSV7Ch3/g/Q7GGI3Ztf9eRarkUkEHncTB430gNv6jr9dF/wWYMLBQri0LWFh3GePmf5enqlcR5o1ZM/cQ==}
+  '@honkit/honkit-plugin-highlight@6.1.6':
+    resolution: {integrity: sha512-i6JlFWaMNKBAfU7WH+kA0gNa5c2gJABPO4UOd0vlOupEqwT4cvRLWcDBp+oAge6aCiTpsyrt8sGnavcpg0kubA==}
     engines: {gitbook: '>=2.4.0'}
 
-  '@honkit/honkit-plugin-theme-default@6.1.4':
-    resolution: {integrity: sha512-iCzFu2tajvwFRyuaLcSbyhavXh1ooDdtWPBTGxKweo4h/KiL1PQWnBXHLuTnZiCnCYXJvbe7qrlmKdOfO5bm2A==}
+  '@honkit/honkit-plugin-theme-default@6.1.6':
+    resolution: {integrity: sha512-AhLEEY0aBTgo4MlGcrW/Rlh/lkdsJdI8oqFV5pU+mSAuHi0Yf49EcU+OkzW8ImWvjIZxjjYN3TJD4Agmpqos+Q==}
     engines: {gitbook: '>=3.0.0'}
 
-  '@honkit/html@6.1.4':
-    resolution: {integrity: sha512-myviwdD1TYUXQgJbVAT4tB7Mn+QtHvr4NErirvglOHlpMKcqexd6ks8yI7F1Xdztr6kuGLD+fNhd1soAFBDUhw==}
+  '@honkit/html@6.1.6':
+    resolution: {integrity: sha512-WtWroTzNdx25S3C3zqyWXh0wLCtkFK+uACHUCGrJxijOns0ivlrOk/QcoF+59EfFMCD9N64VQMs18IduDuF+/Q==}
 
-  '@honkit/markdown-legacy@6.1.4':
-    resolution: {integrity: sha512-HVg5QiHNeGFzCibryl2lZkwCchwROpWjbCrO43NqllWAvvO8GlfU6teQKgGny8AnexpMG+PyS5NoHbU+PwQ4og==}
+  '@honkit/markdown-legacy@6.1.6':
+    resolution: {integrity: sha512-AgMlVqkwLgbOf7B6mRc0vLRSklYxWovX2GPcKYMcPjkGlB5pMTd76Arb1JEifRdhmRLs5SmZ0Te+TME+Xpb/jw==}
 
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-g0J0q/O6mW8z5zxQ3A8E8J1hUgp4SMOvEoW/x84OwyHKe/Zccz83PVT4y5Crcr530FV6NgmKI1qvGTKVl9XXVw==}
     engines: {node: '>= 6'}
 
-  cheerio@1.1.2:
-    resolution: {integrity: sha512-IkxPpb5rS/d1IiLbHMgfPuS0FgiWTtFIm/Nj+2woXDLTZ7fOT2eqzgYbdMlLweqlHbsZjxEChoVK+7iph7jyQg==}
+  cheerio@1.2.0:
+    resolution: {integrity: sha512-WDrybc/gKFpTYQutKIK6UvfcuxijIZfMfXaYm8NMsPQxSYvf+13fXUJ4rztGGbJcBQ/GF55gvrZ0Bc0bj/mqvg==}
     engines: {node: '>=20.18.1'}
 
   chokidar@3.6.0:
@@ -423,8 +423,8 @@ packages:
     resolution: {integrity: sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==}
     engines: {node: '>=12.0.0'}
 
-  honkit@6.1.4:
-    resolution: {integrity: sha512-OR6Co9bTUceYR+gLeAKwmghUETC0Ce2LCc7ooamB3wu6i4Eaq+dTPFCG+sdhNJDh3YRboSXUQJQjJ7PCqD4kOw==}
+  honkit@6.1.6:
+    resolution: {integrity: sha512-Id0sy5fXYlYcUDk8paze0OazsRZhdsdo8HsuhkAxiNvxsG+8iL9qK5gfnYqNr7PGsfqW7g79EEPt9+/BDCMFow==}
     hasBin: true
 
   html-entities@1.2.0:
@@ -807,8 +807,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  undici@7.19.0:
-    resolution: {integrity: sha512-Heho1hJD81YChi+uS2RkSjcVO+EQLmLSyUlHyp7Y/wFbxQaGb4WXVKD073JytrjXJVkSZVzoE2MCSOKugFGtOQ==}
+  undici@7.19.2:
+    resolution: {integrity: sha512-4VQSpGEGsWzk0VYxyB/wVX/Q7qf9t5znLRgs0dzszr9w9Fej/8RVNQ+S20vdXSAyra/bJ7ZQfGv6ZMj7UEbzSg==}
     engines: {node: '>=20.18.1'}
 
   unxhr@1.0.1:
@@ -888,27 +888,27 @@ snapshots:
       asciidoctor-opal-runtime: 0.3.3
       unxhr: 1.0.1
 
-  '@honkit/asciidoc@6.1.4':
+  '@honkit/asciidoc@6.1.6':
     dependencies:
-      '@honkit/html': 6.1.4
+      '@honkit/html': 6.1.6
       asciidoctor: 2.2.8
 
-  '@honkit/honkit-plugin-fontsettings@6.1.4': {}
+  '@honkit/honkit-plugin-fontsettings@6.1.6': {}
 
-  '@honkit/honkit-plugin-highlight@6.1.4':
+  '@honkit/honkit-plugin-highlight@6.1.6':
     dependencies:
       highlight.js: 11.11.1
 
-  '@honkit/honkit-plugin-theme-default@6.1.4': {}
+  '@honkit/honkit-plugin-theme-default@6.1.6': {}
 
-  '@honkit/html@6.1.4':
+  '@honkit/html@6.1.6':
     dependencies:
-      cheerio: 1.1.2
+      cheerio: 1.2.0
       lodash: 4.17.23
 
-  '@honkit/markdown-legacy@6.1.4':
+  '@honkit/markdown-legacy@6.1.6':
     dependencies:
-      '@honkit/html': 6.1.4
+      '@honkit/html': 6.1.6
       kramed: 0.5.6
       lodash: 4.17.23
 
@@ -1015,7 +1015,7 @@ snapshots:
       parse5-htmlparser2-tree-adapter: 6.0.1
       tslib: 2.8.1
 
-  cheerio@1.1.2:
+  cheerio@1.2.0:
     dependencies:
       cheerio-select: 2.1.0
       dom-serializer: 2.0.0
@@ -1026,7 +1026,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.19.0
+      undici: 7.19.2
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -1306,16 +1306,16 @@ snapshots:
 
   highlight.js@11.11.1: {}
 
-  honkit@6.1.4:
+  honkit@6.1.6:
     dependencies:
-      '@honkit/asciidoc': 6.1.4
-      '@honkit/honkit-plugin-fontsettings': 6.1.4
-      '@honkit/honkit-plugin-highlight': 6.1.4
-      '@honkit/honkit-plugin-theme-default': 6.1.4
-      '@honkit/html': 6.1.4
-      '@honkit/markdown-legacy': 6.1.4
+      '@honkit/asciidoc': 6.1.6
+      '@honkit/honkit-plugin-fontsettings': 6.1.6
+      '@honkit/honkit-plugin-highlight': 6.1.6
+      '@honkit/honkit-plugin-theme-default': 6.1.6
+      '@honkit/html': 6.1.6
+      '@honkit/markdown-legacy': 6.1.6
       bash-color: 0.0.4
-      cheerio: 1.1.2
+      cheerio: 1.2.0
       chokidar: 3.6.0
       commander: 5.1.0
       cp: 0.2.0
@@ -1710,7 +1710,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  undici@7.19.0: {}
+  undici@7.19.2: {}
 
   unxhr@1.0.1: {}
 
