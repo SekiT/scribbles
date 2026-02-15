@@ -685,8 +685,8 @@ packages:
 
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
-  qs@6.14.1:
-    resolution: {integrity: sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==}
+  qs@6.14.2:
+    resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
     engines: {node: '>=0.6'}
 
   range-parser@1.2.1:
@@ -807,8 +807,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  undici@7.21.0:
-    resolution: {integrity: sha512-Hn2tCQpoDt1wv23a68Ctc8Cr/BHpUSfaPYrkajTXOS9IKpxVRx/X5m1K2YkbK2ipgZgxXSgsUinl3x+2YdSSfg==}
+  undici@7.22.0:
+    resolution: {integrity: sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==}
     engines: {node: '>=20.18.1'}
 
   unxhr@1.0.1:
@@ -1026,7 +1026,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.21.0
+      undici: 7.22.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -1578,7 +1578,7 @@ snapshots:
 
   q@1.5.1: {}
 
-  qs@6.14.1:
+  qs@6.14.2:
     dependencies:
       side-channel: 1.1.0
 
@@ -1694,7 +1694,7 @@ snapshots:
       faye-websocket: 0.10.0
       livereload-js: 2.4.0
       object-assign: 4.1.1
-      qs: 6.14.1
+      qs: 6.14.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1710,7 +1710,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  undici@7.21.0: {}
+  undici@7.22.0: {}
 
   unxhr@1.0.1: {}
 
