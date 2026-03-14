@@ -12,8 +12,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       honkit:
-        specifier: ^6.1.4
-        version: 6.1.4
+        specifier: ^6.1.6
+        version: 6.1.6
 
 packages:
 
@@ -28,26 +28,26 @@ packages:
     resolution: {integrity: sha512-oozXk7ZO1RAd/KLFLkKOhqTcG4GO3CV44WwOFg2gMcCsqCUTarvMT7xERIoWW2WurKbB0/ce+98r01p8xPOlBw==}
     engines: {node: '>=8.11', npm: '>=5.0.0', yarn: '>=1.1.0'}
 
-  '@honkit/asciidoc@6.1.4':
-    resolution: {integrity: sha512-b7X0mWO/+9xAiD4olJox8fZ+bQohQVIvBU2wYXE5/tknNED8MiI57ayXjf/UsWiRfYodAvuywRdR0KlYP8sy1w==}
+  '@honkit/asciidoc@6.1.6':
+    resolution: {integrity: sha512-/Oy+noEYyL+yLBLia/vAu7+6XYa00M5ZoE9oqRYVsZOWDd6RLcuBhLC4EfKFZk5HqJ/f4Om09lvJgXbIXY23mg==}
 
-  '@honkit/honkit-plugin-fontsettings@6.1.4':
-    resolution: {integrity: sha512-8i59GorqCqQG0bVWZqiFLvuMCrDl+CyIqayMBfoq1Z0E25ibvf2PmHOSAOPAXAZq4npwKaoA3f2XqGEBViuilg==}
+  '@honkit/honkit-plugin-fontsettings@6.1.6':
+    resolution: {integrity: sha512-NExKrTqleTffMDqrdcb268hgQkScVjK9N+bDIxQ63dYmNhtuJ7EcLjijfkOtcS7DEnrR8S5lSjJoVC5oxPzxaQ==}
     engines: {gitbook: '>=2.4.0'}
 
-  '@honkit/honkit-plugin-highlight@6.1.4':
-    resolution: {integrity: sha512-/T7NhxSV7Ch3/g/Q7GGI3Ztf9eRarkUkEHncTB430gNv6jr9dF/wWYMLBQri0LWFh3GePmf5enqlcR5o1ZM/cQ==}
+  '@honkit/honkit-plugin-highlight@6.1.6':
+    resolution: {integrity: sha512-i6JlFWaMNKBAfU7WH+kA0gNa5c2gJABPO4UOd0vlOupEqwT4cvRLWcDBp+oAge6aCiTpsyrt8sGnavcpg0kubA==}
     engines: {gitbook: '>=2.4.0'}
 
-  '@honkit/honkit-plugin-theme-default@6.1.4':
-    resolution: {integrity: sha512-iCzFu2tajvwFRyuaLcSbyhavXh1ooDdtWPBTGxKweo4h/KiL1PQWnBXHLuTnZiCnCYXJvbe7qrlmKdOfO5bm2A==}
+  '@honkit/honkit-plugin-theme-default@6.1.6':
+    resolution: {integrity: sha512-AhLEEY0aBTgo4MlGcrW/Rlh/lkdsJdI8oqFV5pU+mSAuHi0Yf49EcU+OkzW8ImWvjIZxjjYN3TJD4Agmpqos+Q==}
     engines: {gitbook: '>=3.0.0'}
 
-  '@honkit/html@6.1.4':
-    resolution: {integrity: sha512-myviwdD1TYUXQgJbVAT4tB7Mn+QtHvr4NErirvglOHlpMKcqexd6ks8yI7F1Xdztr6kuGLD+fNhd1soAFBDUhw==}
+  '@honkit/html@6.1.6':
+    resolution: {integrity: sha512-WtWroTzNdx25S3C3zqyWXh0wLCtkFK+uACHUCGrJxijOns0ivlrOk/QcoF+59EfFMCD9N64VQMs18IduDuF+/Q==}
 
-  '@honkit/markdown-legacy@6.1.4':
-    resolution: {integrity: sha512-HVg5QiHNeGFzCibryl2lZkwCchwROpWjbCrO43NqllWAvvO8GlfU6teQKgGny8AnexpMG+PyS5NoHbU+PwQ4og==}
+  '@honkit/markdown-legacy@6.1.6':
+    resolution: {integrity: sha512-AgMlVqkwLgbOf7B6mRc0vLRSklYxWovX2GPcKYMcPjkGlB5pMTd76Arb1JEifRdhmRLs5SmZ0Te+TME+Xpb/jw==}
 
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-g0J0q/O6mW8z5zxQ3A8E8J1hUgp4SMOvEoW/x84OwyHKe/Zccz83PVT4y5Crcr530FV6NgmKI1qvGTKVl9XXVw==}
     engines: {node: '>= 6'}
 
-  cheerio@1.1.2:
-    resolution: {integrity: sha512-IkxPpb5rS/d1IiLbHMgfPuS0FgiWTtFIm/Nj+2woXDLTZ7fOT2eqzgYbdMlLweqlHbsZjxEChoVK+7iph7jyQg==}
+  cheerio@1.2.0:
+    resolution: {integrity: sha512-WDrybc/gKFpTYQutKIK6UvfcuxijIZfMfXaYm8NMsPQxSYvf+13fXUJ4rztGGbJcBQ/GF55gvrZ0Bc0bj/mqvg==}
     engines: {node: '>=20.18.1'}
 
   chokidar@3.6.0:
@@ -283,6 +283,10 @@ packages:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
 
+  entities@7.0.1:
+    resolution: {integrity: sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==}
+    engines: {node: '>=0.12'}
+
   error@7.0.2:
     resolution: {integrity: sha512-UtVv4l5MhijsYUxPJo4390gzfZvAnTHreNnDjnTZaKIiZ/SemXxAhBkYSKtWa5RtBXbLP8tMgn/n0RUa/H7jXw==}
 
@@ -394,11 +398,11 @@ packages:
 
   glob@7.1.3:
     resolution: {integrity: sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
@@ -419,16 +423,16 @@ packages:
     resolution: {integrity: sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==}
     engines: {node: '>=12.0.0'}
 
-  honkit@6.1.4:
-    resolution: {integrity: sha512-OR6Co9bTUceYR+gLeAKwmghUETC0Ce2LCc7ooamB3wu6i4Eaq+dTPFCG+sdhNJDh3YRboSXUQJQjJ7PCqD4kOw==}
+  honkit@6.1.6:
+    resolution: {integrity: sha512-Id0sy5fXYlYcUDk8paze0OazsRZhdsdo8HsuhkAxiNvxsG+8iL9qK5gfnYqNr7PGsfqW7g79EEPt9+/BDCMFow==}
     hasBin: true
 
   html-entities@1.2.0:
     resolution: {integrity: sha512-0md7tlUUyb0BEQGsZzbqty1CgV6RESOoxdivt94AScqhBhYsPCCQCOaGvur/RospMjYpPJ7iFe3zw4Bu4SVA8g==}
     engines: {'0': node >= 0.4.0}
 
-  htmlparser2@10.0.0:
-    resolution: {integrity: sha512-TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==}
+  htmlparser2@10.1.0:
+    resolution: {integrity: sha512-VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==}
 
   htmlparser2@5.0.1:
     resolution: {integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==}
@@ -457,8 +461,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  immutable@3.8.2:
-    resolution: {integrity: sha512-15gZoQ38eYjEjxkorfbcgBKBL6R7T459OuK+CpcWt7O3KF4uPCx2tD0uFETlUDIyo+1789crbMhTvQBSR5yBMg==}
+  immutable@3.8.3:
+    resolution: {integrity: sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==}
     engines: {node: '>=0.10.0'}
 
   inflight@1.0.6:
@@ -535,8 +539,8 @@ packages:
   livereload-js@2.4.0:
     resolution: {integrity: sha512-XPQH8Z2GDP/Hwz2PCDrh2mth4yFejwA1OZ/81Ti3LgKyhDcEjsSsqFWZojHG0va/duGd+WyosY7eXLDoOyqcPw==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
   lru_map@0.4.1:
     resolution: {integrity: sha512-I+lBvqMMFfqaV8CJCISjI3wbjmwVu/VyOoU7+qtu9d7ioW5klMgsTTiUOUp+DJvfTTzKXoPbyC6YfgkNcyPSOg==}
@@ -567,8 +571,8 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
-  minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+  minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
@@ -681,8 +685,8 @@ packages:
 
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
-  qs@6.14.1:
-    resolution: {integrity: sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==}
+  qs@6.15.0:
+    resolution: {integrity: sha512-mAZTtNCeetKMH+pSjrb76NAM8V9a05I9aBZOHztWy/UqcJdQYNsf59vrRKWnojAT9Y+GbIvoTBC++CPHqpDBhQ==}
     engines: {node: '>=0.6'}
 
   range-parser@1.2.1:
@@ -726,8 +730,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -803,8 +807,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  undici@7.16.0:
-    resolution: {integrity: sha512-QEg3HPMll0o3t2ourKwOeUAZ159Kn9mx5pnzHRQO8+Wixmh88YdZRiIwat0iNzNNXn0yoEtXJqFpyW7eM8BV7g==}
+  undici@7.22.0:
+    resolution: {integrity: sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==}
     engines: {node: '>=20.18.1'}
 
   unxhr@1.0.1:
@@ -884,29 +888,29 @@ snapshots:
       asciidoctor-opal-runtime: 0.3.3
       unxhr: 1.0.1
 
-  '@honkit/asciidoc@6.1.4':
+  '@honkit/asciidoc@6.1.6':
     dependencies:
-      '@honkit/html': 6.1.4
+      '@honkit/html': 6.1.6
       asciidoctor: 2.2.8
 
-  '@honkit/honkit-plugin-fontsettings@6.1.4': {}
+  '@honkit/honkit-plugin-fontsettings@6.1.6': {}
 
-  '@honkit/honkit-plugin-highlight@6.1.4':
+  '@honkit/honkit-plugin-highlight@6.1.6':
     dependencies:
       highlight.js: 11.11.1
 
-  '@honkit/honkit-plugin-theme-default@6.1.4': {}
+  '@honkit/honkit-plugin-theme-default@6.1.6': {}
 
-  '@honkit/html@6.1.4':
+  '@honkit/html@6.1.6':
     dependencies:
-      cheerio: 1.1.2
-      lodash: 4.17.21
+      cheerio: 1.2.0
+      lodash: 4.17.23
 
-  '@honkit/markdown-legacy@6.1.4':
+  '@honkit/markdown-legacy@6.1.6':
     dependencies:
-      '@honkit/html': 6.1.4
+      '@honkit/html': 6.1.6
       kramed: 0.5.6
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   a-sync-waterfall@1.0.1: {}
 
@@ -1011,18 +1015,18 @@ snapshots:
       parse5-htmlparser2-tree-adapter: 6.0.1
       tslib: 2.8.1
 
-  cheerio@1.1.2:
+  cheerio@1.2.0:
     dependencies:
       cheerio-select: 2.1.0
       dom-serializer: 2.0.0
       domhandler: 5.0.3
       domutils: 3.2.2
       encoding-sniffer: 0.2.1
-      htmlparser2: 10.0.0
+      htmlparser2: 10.1.0
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.16.0
+      undici: 7.22.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -1174,6 +1178,8 @@ snapshots:
 
   entities@6.0.1: {}
 
+  entities@7.0.1: {}
+
   error@7.0.2:
     dependencies:
       string-template: 0.2.1
@@ -1275,7 +1281,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -1284,7 +1290,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -1300,16 +1306,16 @@ snapshots:
 
   highlight.js@11.11.1: {}
 
-  honkit@6.1.4:
+  honkit@6.1.6:
     dependencies:
-      '@honkit/asciidoc': 6.1.4
-      '@honkit/honkit-plugin-fontsettings': 6.1.4
-      '@honkit/honkit-plugin-highlight': 6.1.4
-      '@honkit/honkit-plugin-theme-default': 6.1.4
-      '@honkit/html': 6.1.4
-      '@honkit/markdown-legacy': 6.1.4
+      '@honkit/asciidoc': 6.1.6
+      '@honkit/honkit-plugin-fontsettings': 6.1.6
+      '@honkit/honkit-plugin-highlight': 6.1.6
+      '@honkit/honkit-plugin-theme-default': 6.1.6
+      '@honkit/html': 6.1.6
+      '@honkit/markdown-legacy': 6.1.6
       bash-color: 0.0.4
-      cheerio: 1.1.2
+      cheerio: 1.2.0
       chokidar: 3.6.0
       commander: 5.1.0
       cp: 0.2.0
@@ -1330,7 +1336,7 @@ snapshots:
       github-slugid: 1.0.1
       i18n-t: 1.0.1
       ignore: 5.3.2
-      immutable: 3.8.2
+      immutable: 3.8.3
       is: 3.3.2
       js-yaml: 3.14.2
       json-schema-defaults: 0.1.1
@@ -1347,7 +1353,7 @@ snapshots:
       open: 7.4.2
       q: 1.5.1
       resolve: 1.22.11
-      semver: 7.7.3
+      semver: 7.7.4
       send: 0.17.2
       tiny-lr: 1.1.1
       tmp: 0.2.4
@@ -1358,12 +1364,12 @@ snapshots:
 
   html-entities@1.2.0: {}
 
-  htmlparser2@10.0.0:
+  htmlparser2@10.1.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       domutils: 3.2.2
-      entities: 6.0.1
+      entities: 7.0.1
 
   htmlparser2@5.0.1:
     dependencies:
@@ -1391,7 +1397,7 @@ snapshots:
 
   i18n-t@1.0.1:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   iconv-lite@0.6.3:
     dependencies:
@@ -1401,7 +1407,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  immutable@3.8.2: {}
+  immutable@3.8.3: {}
 
   inflight@1.0.6:
     dependencies:
@@ -1465,7 +1471,7 @@ snapshots:
 
   livereload-js@2.4.0: {}
 
-  lodash@4.17.21: {}
+  lodash@4.17.23: {}
 
   lru_map@0.4.1: {}
 
@@ -1483,7 +1489,7 @@ snapshots:
 
   mime@2.6.0: {}
 
-  minimatch@3.1.2:
+  minimatch@3.1.5:
     dependencies:
       brace-expansion: 1.1.12
 
@@ -1572,7 +1578,7 @@ snapshots:
 
   q@1.5.1: {}
 
-  qs@6.14.1:
+  qs@6.15.0:
     dependencies:
       side-channel: 1.1.0
 
@@ -1609,7 +1615,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  semver@7.7.3: {}
+  semver@7.7.4: {}
 
   send@0.17.2:
     dependencies:
@@ -1688,7 +1694,7 @@ snapshots:
       faye-websocket: 0.10.0
       livereload-js: 2.4.0
       object-assign: 4.1.1
-      qs: 6.14.1
+      qs: 6.15.0
     transitivePeerDependencies:
       - supports-color
 
@@ -1704,7 +1710,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  undici@7.16.0: {}
+  undici@7.22.0: {}
 
   unxhr@1.0.1: {}
 
