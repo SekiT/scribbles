@@ -538,11 +538,8 @@ packages:
   livereload-js@2.4.0:
     resolution: {integrity: sha512-XPQH8Z2GDP/Hwz2PCDrh2mth4yFejwA1OZ/81Ti3LgKyhDcEjsSsqFWZojHG0va/duGd+WyosY7eXLDoOyqcPw==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   lru_map@0.4.1:
     resolution: {integrity: sha512-I+lBvqMMFfqaV8CJCISjI3wbjmwVu/VyOoU7+qtu9d7ioW5klMgsTTiUOUp+DJvfTTzKXoPbyC6YfgkNcyPSOg==}
@@ -897,13 +894,13 @@ snapshots:
   '@honkit/html@6.1.7':
     dependencies:
       cheerio: 1.0.0
-      lodash: 4.17.23
+      lodash: 4.18.1
 
   '@honkit/markdown-legacy@6.1.7':
     dependencies:
       '@honkit/html': 6.1.7
       kramed: 0.5.6
-      lodash: 4.17.23
+      lodash: 4.18.1
 
   a-sync-waterfall@1.0.1: {}
 
@@ -1385,7 +1382,7 @@ snapshots:
 
   i18n-t@1.0.1:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
 
   iconv-lite@0.6.3:
     dependencies:
@@ -1465,9 +1462,7 @@ snapshots:
 
   livereload-js@2.4.0: {}
 
-  lodash@4.17.21: {}
-
-  lodash@4.17.23: {}
+  lodash@4.18.1: {}
 
   lru_map@0.4.1: {}
 
