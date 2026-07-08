@@ -305,6 +305,9 @@ packages:
   error@7.0.2:
     resolution: {integrity: sha512-UtVv4l5MhijsYUxPJo4390gzfZvAnTHreNnDjnTZaKIiZ/SemXxAhBkYSKtWa5RtBXbLP8tMgn/n0RUa/H7jXw==}
 
+  error@7.2.1:
+    resolution: {integrity: sha512-fo9HBvWnx3NGUKMvMwB/CBCMMrfEJgbDTVDEkPygA3Bdd3lM1OyCd+rbQ8BwnpF6GdVeOLDNmyL4N5Bg80ZvdA==}
+
   es-define-property@1.0.1:
     resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
     engines: {node: '>= 0.4'}
@@ -985,7 +988,7 @@ snapshots:
   body@5.1.0:
     dependencies:
       continuable-cache: 0.3.1
-      error: 7.0.2
+      error: 7.2.1
       raw-body: 1.1.7
       safe-json-parse: 1.0.1
 
@@ -1213,6 +1216,10 @@ snapshots:
     dependencies:
       string-template: 0.2.1
       xtend: 4.0.2
+
+  error@7.2.1:
+    dependencies:
+      string-template: 0.2.1
 
   es-define-property@1.0.1: {}
 
